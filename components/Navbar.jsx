@@ -171,7 +171,7 @@ export default function Navbar() {
               <p className="uppercase tracking-widest text-[#FFD700]">
                 Let's Connect
               </p>
-              <div className="flex items-center justify-around my-4 w-full sm:w-[80%]">
+              <div className="flex items-center justify-around mt-10 w-full sm:w-[80%]">
                 <a
                   href="https://www.linkedin.com/in/christelle-rouz%C3%A9/"
                   target="_blank"

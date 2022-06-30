@@ -63,7 +63,7 @@ export default function Contact() {
         <h3 className="py-4 text-yellow-600 text-[1.5rem]">Get In Touch</h3>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-yellow-600 rounded-xl p-4">
+          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-lg shadow-yellow-600 rounded-xl p-4">
             <div className="lg:p-4 h-full">
               <div>
                 <img
@@ -73,7 +73,7 @@ export default function Contact() {
                 />
               </div>
               <div>
-                <h3 className="py-2">Name here</h3>
+                <h3 className="py-2">Christelle Rouzé</h3>
                 <p>Full-Stack Developer</p>
                 <p className="py-4">
                   I am available for an internship of at least 4 months or for
@@ -82,7 +82,7 @@ export default function Contact() {
               </div>
               <div>
                 <p className="uppercase pt-8">Connect With Me</p>
-                <div className="flex items-center justify-around py-4">
+                <div className="flex items-center justify-around pt-10">
                   <a
                     href="https://www.linkedin.com/in/christelle-rouz%C3%A9/"
                     target="_blank"
@@ -108,7 +108,7 @@ export default function Contact() {
 
           {/* right */}
 
-          <div className="col-span-3 w-full h-auto shadow-xl shadow-yellow-600 rounded-xl lg:p-4">
+          <div className="col-span-3 w-full h-auto shadow-lg shadow-yellow-600 rounded-xl lg:p-4">
             <div className="p-4">
               <form ref={form} onSubmit={sendEmail}>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
@@ -188,7 +188,7 @@ export default function Contact() {
                 <button
                   type="submit"
                   onSubmit={sendEmail}
-                  className="w-full mt-2 p-4 font-bold bg-[#FFD700]"
+                  className="w-full mt-2 p-4 bg-[#FFD700]"
                 >
                   Send Message
                 </button>

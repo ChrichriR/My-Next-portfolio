@@ -24,7 +24,7 @@ export default function Main() {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-yellow-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full shadow-lg shadow-yellow-600 mt-6 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaLinkedin />
               </div>
             </a>
@@ -33,7 +33,7 @@ export default function Main() {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-yellow-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full shadow-lg shadow-yellow-600 mt-6 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaGithub />
               </div>
             </a>

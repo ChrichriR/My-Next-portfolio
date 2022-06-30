@@ -26,12 +26,14 @@ export default function Tetris() {
           <p className="text-[2rem]">Project</p>
           <h4 className="text-[1.5rem]">Overview</h4>
           <p>
-            This is my first school project, done in 2 weeks with 3 colleagues.
+            This is my first school project, done in 2 weeks with 3 of my
+            colleagues.
             <br />
-            We have to made a static website in HTML, CSS and vanilla JS. <br />
-            We choose to create a tetris game, and even if it became obvious
-            after 4-5 days that it was a big piece for us at this time, we got a
-            lot of fun by encoding it. <br /> This is also the begining of the
+            We had to create a static website in HTML, CSS and vanilla JS.
+            <br />
+            We chose to create a Tetris-like game, and even if it became obvious
+            after 4-5 days that it was a big part for us at this time, we got a
+            lot of fun while encoding it. <br /> This is also the begining of my
             love story with Github.
           </p>
           <a
@@ -63,7 +65,7 @@ export default function Tetris() {
               </p>
               <p className="text-yellow-400 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Vanila JS
+                Vanilla JS
               </p>
             </div>
           </div>

@@ -26,10 +26,9 @@ export default function Memory() {
           <p className="text-[2rem]">Project</p>
           <h4 className="text-[1.5rem]">Overview</h4>
           <p>
-            I made this little game during my week end because it seems simple
-            and cute.
-            <br />
-            And I could train with react while I watched this tuto game.
+            I created this little game during one of my weekends because it
+            seemed simple and cute and it allowed me to train myself using
+            react.
           </p>
           <a
             href="https://memory-game-ruby.vercel.app/"

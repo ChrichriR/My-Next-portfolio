@@ -27,18 +27,20 @@ export default function Picnmove() {
           <p className="text-[2rem]">Project</p>
           <h4 className="text-[1.5rem]">Overview</h4>
           <p>
-            This one is my second project with my school, done in 6 weeks with 4
+            Pic'N'Move is my second assignment, done in 6 weeks with 4 of my
             colleagues.
             <br />
-            We could create what we want, but we need to use, at least, one API.
-            We decide to push ourself into an ambitious project, and use 3
-            differents API, and made a website app for the people who want to
-            run into a city (Lyon in that case) and keep some memories with some
-            random pictures take at some points of this predefined course,
-            giving at the end of this one.
-            <br /> Introduction into the agile method (scrum for this project),
-            implementation of the Back-End with Express and application of a
-            great library, React!
+            We could create whatever we wanted, but we needed to use, at least,
+            one API. We decided to push ourselves into an ambitious project, and
+            use 3 differents APIs. We designed a website app for people living
+            in the city (Lyon in our case) and wanting to do running while
+            keeping some memories with some random pictures taken at several
+            points of the predefined course they have choosen on the app. They
+            could collect this pictures once the running course was over.
+            <br />
+            This project was our first step into the agile method (scrum for
+            this project), the implementation of the Back-End with Express and
+            the application of a great library, React!
           </p>
           <a
             href="https://pic-n-move.vercel.app/"
