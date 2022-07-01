@@ -35,8 +35,8 @@ export default function Picnmove() {
             use 3 differents APIs. We designed a website app for people living
             in the city (Lyon in our case) and wanting to do running while
             keeping some memories with some random pictures taken at several
-            points of the predefined course they have choosen on the app. They
-            could collect this pictures once the running course was over.
+            points of the predefined course they had chosen on the app. They
+            could collect these pictures once the running course was over.
             <br />
             This project was our first step into the agile method (scrum for
             this project), the implementation of the Back-End with Express and

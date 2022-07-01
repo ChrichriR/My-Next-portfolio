@@ -32,9 +32,9 @@ export default function Tetris() {
             We had to create a static website in HTML, CSS and vanilla JS.
             <br />
             We chose to create a Tetris-like game, and even if it became obvious
-            after 4-5 days that it was a big part for us at this time, we got a
-            lot of fun while encoding it. <br /> This is also the begining of my
-            love story with Github.
+            after 4-5 days that it was a lot to handle for us at this time, we
+            had fun while encoding it. <br /> This is also the begining
+            of my love story with Github.
           </p>
           <a
             href="https://wcs-project1-tetris-zero.netlify.app/"
