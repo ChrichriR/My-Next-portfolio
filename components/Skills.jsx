@@ -30,7 +30,7 @@ export default function Skills() {
               <div className="m-auto">
                 <Image
                   src="/assets/skills/css.png"
-                  alt="css logo"
+                  alt="CSS logo"
                   width="64px"
                   height="60px"
                 />
