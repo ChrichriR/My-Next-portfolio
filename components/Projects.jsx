@@ -1,6 +1,7 @@
 import memoryImg from "../public/assets/projects/memory.png";
 import tetrisImg from "../public/assets/projects/tetris.png";
 import picnmoveImg from "../public/assets/projects/picnmove.png";
+import weatherImg from "../public/assets/projects/weather.png";
 import ProjectItem from "./ProjectItem";
 
 /* eslint-disable react/no-unescaped-entities */
@@ -8,9 +9,7 @@ export default function Projects() {
   return (
     <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
-        <p className="uppercase text-[2rem] tracking-widest">
-          Projects
-        </p>
+        <p className="uppercase text-[2rem] tracking-widest">Projects</p>
         <h3 className="py-4 text-yellow-600 text-[1.5rem]">What I've Built</h3>
         <div className="grid md:grid-cols-2 gap-8 px-6">
           <ProjectItem
@@ -30,6 +29,12 @@ export default function Projects() {
             backgroundImg={memoryImg}
             language="React"
             projectUrl="/memory"
+          />
+          <ProjectItem
+            title="Weather App"
+            backgroundImg={weatherImg}
+            language="Next"
+            projectUrl="/weather"
           />
         </div>
       </div>
