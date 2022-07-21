@@ -57,6 +57,10 @@ export default function Weather() {
                 <RiRadioButtonFill className="pr-1" />
                 openweathermap API
               </p>
+              <p className="text-yellow-400 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                Tailwind
+              </p>
             </div>
           </div>
         </div>

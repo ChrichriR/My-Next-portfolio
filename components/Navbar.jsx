@@ -9,8 +9,8 @@ import { useRouter } from "next/router";
 export default function Navbar() {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("#ecf0f3");
-  const [linkColor, setLinkColor] = useState("#1f2937");
+  const [navBg, setNavBg] = useState("#424B54");
+  const linkColor = "#FFD700";
   const router = useRouter();
 
   useEffect(() => {
@@ -20,10 +20,8 @@ export default function Navbar() {
       router.asPath === "/picnmove"
     ) {
       setNavBg("transparent");
-      setLinkColor("#FFD700");
     } else {
       setNavBg("#424B54");
-      setLinkColor("#FFD700");
     }
   }, [router]);
 
