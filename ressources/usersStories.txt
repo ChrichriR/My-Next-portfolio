@@ -1,0 +1,69 @@
+                                                                                                            User storie 1 :
+
+    En tant que visiteur je voudrais pourvoir laisser un commentaire.
+
+Critères et considérations spécifiques
+    Différents champs sont remplissables.
+
+Scénarios de test (du point de vue de l'utilisateur)
+
+Cas d'utilisation 1 :
+    Se rendre sur la section "guest book" accessible depuis la navbar ou le menu burger
+    Remplir les champs avec le contenu souhaité
+    Cliquer sur send message, les champs sont réinitialisés.
+
+
+Tâches de développement
+
+    Créer le formulaire.
+    Créer le boutons "Send Message".
+
+
+                                                                                                            User storie 2 :
+
+    En tant que qu'administrateur je souhaite avoir une vision des messages reçu.
+
+Critères et considérations spécifiques
+    Accèder à un dashboard admin sécurisé
+
+Scénarios de test (du point de vue de l'utilisateur)
+
+Cas d'utilisation 1 : connexion
+    Se rendre sur la page "admin" accessible depuis le logo à droite dans la navbar ou le menu burger
+    Remplir les champs avec le contenu souhaité
+    Cliquer sur connexion, être redirigé vers /admin/message.
+
+Cas d'utilisation 2 : déconnexion
+    Sur la page /admin/message, cliquer sur le bouton disconnect
+    Etre déconnecté et redirigé vers la page principale.
+
+Cas d'utilisation 3 : tenter d'aller directement sur la page /admin/message
+    Je tape dans l'url /admin/message
+    Je suis redirigé vers la page principale
+
+
+Tâches de développement
+
+    Créer le formulaire de connexion.
+
+
+
+                                                                                                            User storie 3 :
+
+    En tant que qu'administrateur je souhaite supprimer des messages reçu.
+
+Critères et considérations spécifiques
+    Accèder à la page /admin/message
+    Réussir à supprimer des messages
+
+Scénarios de test (du point de vue de l'utilisateur)
+
+Cas d'utilisation 1 : Suppression d'un message
+    Après m'être connecté je vois les cards des messages reçus
+    Je clique sur delete
+    Le message est supprimé avec un toast de confirmation. 
+
+Tâches de développement
+
+    Créer les cards message
+    Créer le bouton "delete"

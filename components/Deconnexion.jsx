@@ -10,7 +10,7 @@ const Deconnexion = () => {
       await logOut();
       router.push("/");
     } catch (error) {
-      console.log(error.message);
+      console.error(error);
     }
   };
   return (
