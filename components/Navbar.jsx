@@ -51,7 +51,7 @@ export default function Navbar() {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <div className="mt-6">
-          <Link href="/">
+          <Link href="/admin">
             <a>
               <Image
                 src="/assets/C_R.png"
@@ -90,6 +90,11 @@ export default function Navbar() {
                 Contact
               </li>
             </Link>
+            <Link href="/#guest">
+              <li className="ml-10 text-sm uppercase hover:border-b border-[#FFD700]">
+                Guest Book
+              </li>
+            </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden">
             <AiOutlineMenu size={25} />
@@ -106,12 +111,12 @@ export default function Navbar() {
           className={
             nav
               ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#424B54] p-10 ease-in duration-500"
-              : "fixed left-[-120%] top-0 p-10 ease-in duration-500"
+              : "fixed left-[-160%] md:left-[-120%] top-0 p-10 ease-in duration-500"
           }
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Link href="/">
+              <Link href="/admin">
                 <a>
                   <Image
                     src="/assets/C_R.png"
@@ -139,28 +144,33 @@ export default function Navbar() {
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
               <Link href="/">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-3 text-sm">
                   Home
                 </li>
               </Link>
               <Link href="/#about">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-3 text-sm">
                   About
                 </li>
               </Link>
               <Link href="/#skills">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-3 text-sm">
                   Skills
                 </li>
               </Link>
               <Link href="/#projects">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-3 text-sm">
                   Projects
                 </li>
               </Link>
               <Link href="/#contact">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-3 text-sm">
                   Contact
+                </li>
+              </Link>
+              <Link href="/#guest">
+                <li onClick={() => setNav(false)} className="py-3 text-sm">
+                  Guest Book
                 </li>
               </Link>
             </ul>

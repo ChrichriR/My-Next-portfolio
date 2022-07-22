@@ -1,0 +1,17 @@
+@media screen and (max-width: 1380px) {
+  .box {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .box {
+    grid-template-columns: 1fr;
+  }
+}

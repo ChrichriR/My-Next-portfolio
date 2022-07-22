@@ -1,8 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-import Link from "next/link";
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
 import { toast, ToastContainer } from "react-nextjs-toast";
@@ -196,13 +194,6 @@ export default function Contact() {
               </form>
             </div>
           </div>
-        </div>
-        <div className="flex justify-center py-12">
-          <Link href="/">
-            <div className="rounded-full shadow-lg shadow-yellow-600 mt-6 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <HiOutlineChevronDoubleUp className="text-yellow-600" size={30} />
-            </div>
-          </Link>
         </div>
       </div>
     </div>
