@@ -2,8 +2,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { createMessage } from "../model/message";
+import { toast, ToastContainer } from "react-nextjs-toast";
 
 export default function Guest() {
   const [messageData, setMessageData] = useState("");
@@ -11,6 +12,11 @@ export default function Guest() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     await createMessage(messageData);
+    toast.notify("Thank you for your message, I take good note of it", {
+      duration: 5,
+      theme: "dark",
+      type: "success",
+    });
     setMessageData("");
   };
 
@@ -32,7 +38,6 @@ export default function Guest() {
                   <input
                     name="nickname"
                     id="nickname"
-                    required
                     value={messageData.nickname || ""}
                     onChange={(e) =>
                       setMessageData({
@@ -51,7 +56,6 @@ export default function Guest() {
                   <input
                     name="topic"
                     id="topic"
-                    required
                     value={messageData.topic || ""}
                     onChange={(e) =>
                       setMessageData({
@@ -70,7 +74,6 @@ export default function Guest() {
                   <textarea
                     name="message"
                     id="message"
-                    required
                     value={messageData.message || ""}
                     onChange={(e) =>
                       setMessageData({
@@ -89,6 +92,7 @@ export default function Guest() {
                   Send Message
                 </button>
               </form>
+              <ToastContainer />
             </div>
           </div>
 
