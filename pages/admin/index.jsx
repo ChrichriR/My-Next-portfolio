@@ -24,7 +24,7 @@ export default function Dashboard() {
 
   return (
     <AdminLayout pageTitle={"Admin Dashboard"}>
-      <h1 className="text-yellow-600 pt-20 text-center">Admin Dashboard</h1>
+      <h1 className="text-yellow-500 pt-20 text-center">Admin Dashboard</h1>
       <div className="text-center">
         <h2 className="text-[#fffb16] mt-12">Connexion</h2>
         <form
