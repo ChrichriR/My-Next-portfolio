@@ -2,7 +2,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { createMessage } from "../model/message";
 import { toast, ToastContainer } from "react-nextjs-toast";
 

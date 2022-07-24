@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import AdminLayout from "../../components/AdminLayout";
 import { useAuth } from "../../context/authContext";
 
@@ -21,12 +21,6 @@ export default function Dashboard() {
       setError(error.message);
     }
   };
-
-  useEffect(() => {
-    if (admin) {
-      router.push("/admin/message");
-    }
-  }, [router, admin]);
 
   return (
     <AdminLayout pageTitle={"Admin Dashboard"}>
